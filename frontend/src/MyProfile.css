@@ -1,0 +1,111 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.ever {
+    width: 100%;
+  }
+.logo img {
+    max-height: 40px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: none;
+    padding: 5px;
+}
+
+.search button {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.search button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.signup, .signin {
+    background-color: #ff5722;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.signup:hover, .signin:hover {
+    background-color: #e64a19;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.profile-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    color: #236b92;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #888;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Arial', sans-serif; 
+    color: #236b92; 
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
