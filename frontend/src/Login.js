@@ -8,10 +8,6 @@ const Login = () => {
         <fieldset>
           <h3 id="PLTag">PESU Library</h3>
           <h1 id="LITag">Login</h1>
-          <button id="SignInGoogle">
-            <img src="GoogleImg.png" height="15" width="15" alt="Google Logo" />
-            Sign In With Google
-          </button>
           <hr />
           <form align="center">
             PRN/SRN<sup>*</sup>
