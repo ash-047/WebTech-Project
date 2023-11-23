@@ -12,7 +12,7 @@ const Login = () => {
           <form align="center">
             PRN/SRN<sup>*</sup>
             <br />
-            <input type="text" name="srnprn" placeholder="SRN/PRN" required />
+            <input type="text" name="srnprnemail" placeholder="SRN/PRN/email" required />
             <br />
             Password*
             <br />
