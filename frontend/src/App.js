@@ -108,6 +108,7 @@ import BorrowedBooks from "./BorrowedBooks";
 import ReservedBooksPage from "./ReservedBooks";
 import MyProfile from "./MyProfile";
 import './App.css'
+import LandingPage from "./LandingPage"; 
 
 const App = () => {
   return (
@@ -152,6 +153,7 @@ const App = () => {
 
         <Container id="imagecontainer">
           <Routes>
+            <Route path="" element={<LandingPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/MyProfile" element={<MyProfile />} />
             <Route path="/BorrowedBooks" element={<BorrowedBooks />} />
