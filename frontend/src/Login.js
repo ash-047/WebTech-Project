@@ -10,7 +10,7 @@ const Login = () => {
           <h1 id="LITag">Login</h1>
           <hr />
           <form align="center">
-            PRN/SRN<sup>*</sup>
+            PRN/SRN/email<sup>*</sup>
             <br />
             <input type="text" name="srnprnemail" placeholder="SRN/PRN/email" required />
             <br />
