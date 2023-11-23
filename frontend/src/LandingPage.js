@@ -1,12 +1,23 @@
 import React from 'react'
 
-import About from '../Components/About'
-import Footer from '../Components/Footer'
-import ImageSlider from '../Components/ImageSlider'
-import News from '../Components/News'
-import PhotoGallery from '../Components/PhotoGallery'
-import PopularBooks from '../Components/PopularBooks'
-import RecentAddedBooks from '../Components/RecentAddedBooks'
-import ReservedBooks from '../Components/ReservedBooks'
-import Stats from '../Components/Stats'
-import WelcomeBox from '../Components/WelcomeBox'
+import About from './Components/AboutLibrary'
+import ImageSlider from './Components/ImageSlider'
+import PopularBooks from './Components/PopularBooks'
+import RecentAddedBooks from './Components/RecentAddedBooks'
+import WelcomeBox from './Components/WelcomeBox'
+import Stats from './Components/Stats'
+
+function LandingPage() {
+    return (
+        <div id='landingpage'>
+            <ImageSlider/>
+            <WelcomeBox/>
+            <Stats/>
+            <RecentAddedBooks/>
+            <PopularBooks/>
+            <About/>
+        </div>
+    )
+}
+
+export default LandingPage
