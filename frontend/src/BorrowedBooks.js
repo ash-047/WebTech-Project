@@ -12,32 +12,16 @@ const BorrowedBooksPage = () => {
 
   return (
     <div className='ever'>
-      {/* <header style={{ backgroundColor: '#333333', color: '#fff', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 20px' }}>
-        <div className="logo">
-          <img src="logo.png" alt="Your Logo" style={{ maxHeight: '40px' }} />
-        </div>
-        <nav>
-          <ul style={{ display: 'flex' }}>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Guidelines</a></li>
-          </ul>
-        </nav>
-        <div className="actions">
-          <button className="signup">Sign Up</button>
-          <button className="signin">Sign In</button>
-          <button><img src="profilepic.png" alt="Profile" /></button>
-        </div>
-      </header> */}
-
       <section className="main-content" style={{ margin: '20px' }}>
         
-        <div className="search-results" style={{ backgroundColor: 'rgba(245, 245, 245, 0.9)', padding: '20px', borderRadius: '5px' }}>
+        <div className="borrowedbooks-results" style={{ backgroundColor: 'rgba(245, 245, 245, 0.9)', padding: '20px', borderRadius: '5px' }}>
+          <h2 style={{ textAlign: 'center', fontSize: '36px', fontFamily: 'Arial, sans-serif', color: '#236b92', animation: 'slideIn 0.5s ease-in-out' }}>Borrowed Books, Articles, and Pages</h2>
+          <hr width="50" color="#000000" className="hr_lines"/>
+          <br />
           <div className="tab-bar" style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
             <div className={`tab ${activeTab === 'books' ? 'active' : ''}`} onClick={() => handleTabClick('books')} data-tab="books">Borrowed Books</div>
             <div className={`tab ${activeTab === 'articles' ? 'active' : ''}`} onClick={() => handleTabClick('articles')} data-tab="articles">Overdue Books</div>
           </div>
-          <h2 style={{ textAlign: 'center' }}>Borrowed Books, Articles, and Pages</h2>
           <ul className="results-list" id="books-results" style={{ display: activeTab === 'books' ? 'block' : 'none', listStyle: 'none', padding: '0' }}>
             <li>
               <div className="result-item" style={{ margin: '10px 0', display: 'flex', alignItems: 'center', position: 'relative' }}>

@@ -7,26 +7,8 @@ import coverImage2 from './cover-image-2.jpg';
 const ReservedBooksPage = () => {
   return (
     <div className='ever'>
-      {/* <header>
-        <div className="logo">
-          <img src="logo.png" alt="Your Logo" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Guidelines</a></li>
-          </ul>
-        </nav>
-        <div className="actions">
-          <button className="signup">Sign Up</button>
-          <button className="signin">Sign In</button>
-          <button><img src="profilepic.png" alt="Profile" /></button>
-        </div>
-      </header> */}
-
       <section className="main-content">
-        <div className="search-results">
+        <div className="reservedbooks-results">
           <h2 align="center">Reserve Books</h2>
           <ul className="results-list" id="books-results">
             <li>

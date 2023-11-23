@@ -1,4 +1,3 @@
-// Login.js
 import React from 'react';
 import './Login.css';
 
@@ -7,15 +6,12 @@ const Login = () => {
       <div className="left-half">
         <fieldset>
           <h3 id="PLTag">PESU Library</h3>
-          <h1 id="LITag">Login</h1>
-          <hr />
+          <hr color="black" className="line"/>
+          <h1 id="LITag" >Login</h1>
           <form align="center">
-            PRN/SRN/email<sup>*</sup>
-            <br />
+            <p style={{ textAlign: 'center', fontSize: '20px', color: '#000000', animation: 'slideIn 0.7s ease-out' }}>PRN/SRN/email <sup>*</sup></p>
             <input type="text" name="srnprnemail" placeholder="SRN/PRN/email" required />
-            <br />
-            Password*
-            <br />
+            <p style={{ textAlign: 'center', fontSize: '20px', color: '#000000', animation: 'slideIn 0.7s ease-out' }}>Password <sup>*</sup></p>
             <input type="password" name="pwd" placeholder="Password" required />
             <br/>
             <input type="button" value="Login" id="login" />

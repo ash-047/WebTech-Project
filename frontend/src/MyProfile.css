@@ -1,36 +1,9 @@
-body, ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: 'Arial', sans-serif;
-}
-
-header {
-    background-color: #333333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
 .ever {
     width: 100%;
   }
+  
 .logo img {
     max-height: 40px;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
 }
 
 .actions {
@@ -91,14 +64,12 @@ nav ul li a {
     color: #888;
 }
 
-.about-heading {
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Arial', sans-serif; 
-    color: #236b92; 
-    animation: slideIn 1s ease-in-out;
+.profile-info {
+    margin: 20px;
+    background-color: rgba(245, 245, 245, 0.9);
+    padding: 20px;
+    border-radius: 5px;
 }
-
 @keyframes slideIn {
     0% {
         opacity: 0;
@@ -107,5 +78,30 @@ nav ul li a {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+@keyframes slideRight {
+    0% {
+        opacity: 1;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.profile-pic {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards;
+    height: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
     }
 }

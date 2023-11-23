@@ -1,35 +1,17 @@
-// myprofile.js
-
 import React from 'react';
-import './MyProfile.css'; // Import the external CSS file
+import './MyProfile.css'; 
+import profilePic from './ProfilePicIcon.png'
 
 const MyProfile = () => {
   return (
     <div className='ever'>
-      {/* <header>
-        <div className="logo">
-          <img src="logo.png" alt="Your Logo" />
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Guidelines</a></li>
-          </ul>
-        </nav>
-        <div className="actions">
-          <button className="signup">Sign Up</button>
-          <button className="signin">Sign In</button>
-          <button><img src="profilepic.png" alt="Profile" /></button>
-        </div>
-      </header> */}
-
       <main>
         <div className="profile-info">
-          <img className="profile-pic" src="profilepic.png" alt="Profile" />
-          <h2>User Name</h2>
-          <p>Email: user@example.com</p>
-          <p>SRN: PES2UG22CSXXX</p>
+          <img className="profile-pic" src={profilePic} alt="Profile" />
+          <h1 className="about-heading" align="center" style={{ textAlign: 'center', fontSize: '36px', fontFamily: 'Arial, sans-serif', color: '#236b92', animation: 'slideIn 0.5s ease-in-out' }}>User Name</h1>
+          <p className="about-content" style={{ textAlign: 'center', fontSize: '20px', color: '#000000', animation: 'slideIn 0.7s ease-out' }}>Email: user@example.com</p>
+          <p className="about-content" style={{ textAlign: 'center', fontSize: '20px', color: '#000000', animation: 'slideIn 0.7s ease-out' }}>SRN: PES2UG22CSXXX</p>
+          <hr width="50" color="#000000" className="hr_lines"/>
         </div>
       </main>
     </div>
