@@ -1,6 +1,5 @@
-// Import React and any other necessary components
 import React from 'react';
-import './ReservedBooks.css'; // Replace with the correct path to your external CSS file
+import './ReservedBooks.css';
 import coverImage1 from './cover-image-1.jpg';
 import coverImage2 from './cover-image-2.jpg';
 
