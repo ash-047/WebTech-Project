@@ -136,7 +136,7 @@ const App = () => {
               </Nav>
               <Nav>
                 <Nav.Link as={Link} to={"/Login"}>
-                  Login/Sign-up Page
+                  Login
                 </Nav.Link>
               </Nav>
             </Container>
