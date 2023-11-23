@@ -114,22 +114,29 @@ const App = () => {
     <Router>
       <div className="App">
         <header className="App-header">
-          <Navbar bg="dark" variant="dark">
+          <Navbar bg="dark" variant="dark" className="navigationbar">
             <Container>
-
-              <Nav className="mr-auto">
-                <Nav.Link as={Link} to={"/BorrowedBooks"}>
-                  Borrowed Books
-                </Nav.Link>
-                <Nav.Link as={Link} to={"/ReservedBooks"}>
-                  Reserved Books
-                </Nav.Link>
+              <Nav>
                 <Nav.Link as={Link} to={"/MyProfile"}>
                   My Profile
                 </Nav.Link>
-                <Nav.Link as={Link} to={"/About"}>
-                  About us
+              </Nav>
+              <Nav>
+                <Nav.Link as={Link} to={"/ReservedBooks"}>
+                  Reserved Books
                 </Nav.Link>
+              </Nav>
+              <Nav>
+                <Nav.Link as={Link} to={"/BorrowedBooks"}>
+                  Borrowed Books
+                </Nav.Link>
+              </Nav>
+              <Nav>
+                <Nav.Link as={Link} to={"/About"}>
+                  About Us
+                </Nav.Link>
+              </Nav>
+              <Nav>
                 <Nav.Link as={Link} to={"/Guidelines"}>
                   Guidelines
                 </Nav.Link>
@@ -146,9 +153,9 @@ const App = () => {
         <Container id="imagecontainer">
           <Routes>
             <Route path="/login" element={<Login />} />
+            <Route path="/MyProfile" element={<MyProfile />} />
             <Route path="/BorrowedBooks" element={<BorrowedBooks />} />
             <Route path="/ReservedBooks" element={<ReservedBooksPage />} />
-            <Route path="/MyProfile" element={<MyProfile />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/guidelines" element={<GuidelinesPage />} />
           </Routes>
