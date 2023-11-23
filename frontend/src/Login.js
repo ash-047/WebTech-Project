@@ -17,11 +17,7 @@ const Login = () => {
             Password*
             <br />
             <input type="password" name="pwd" placeholder="Password" required />
-            <br />
-            <input type="checkbox" name="rememberme" id="rem_me" />
-            Remember me?
-            <input type="button" value="Forgot Password?" id="for_pwd" />
-            <br />
+            <br/>
             <input type="button" value="Login" id="login" />
           </form>
         </fieldset>
