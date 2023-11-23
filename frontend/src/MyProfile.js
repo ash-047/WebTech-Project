@@ -11,6 +11,7 @@ const MyProfile = () => {
           <h1 className="about-heading" align="center" style={{ textAlign: 'center', fontSize: '36px', fontFamily: 'Arial, sans-serif', color: '#236b92', animation: 'slideIn 0.5s ease-in-out' }}>User Name</h1>
           <p className="about-content" style={{ textAlign: 'center', fontSize: '20px', color: '#000000', animation: 'slideIn 0.7s ease-out' }}>Email: user@example.com</p>
           <p className="about-content" style={{ textAlign: 'center', fontSize: '20px', color: '#000000', animation: 'slideIn 0.7s ease-out' }}>SRN: PES2UG22CSXXX</p>
+          <br />
           <hr width="50" color="#000000" className="hr_lines"/>
         </div>
       </main>

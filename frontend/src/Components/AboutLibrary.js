@@ -7,7 +7,7 @@ function About() {
             <h2 className="about-title">About the Library</h2>
             <div className="about-data">
                 <div className="about-img">
-                    <img src="https://images.unsplash.com/photo-1583468982228-19f19164aee2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=913&q=80" alt="" />
+                    <img src="https://img.freepik.com/free-photo/ancient-books-adorn-library-carefully-arranged-with-classics-rare-gems_157027-2332.jpg" alt="" />
                 </div>
                 <div>
                     <p className="about-text">
@@ -17,17 +17,10 @@ function About() {
                         and scrambled it to make a type specimen book. It has survived not 
                         only five centuries.<br/>
                         <br/>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old. Richard McClintock, a Latin professor 
-                        at Hampden-Sydney College in Virginia, looked up one of the more obscure 
-                        Latin words, consectetur, from a Lorem Ipsum passage.<br/>
+                        To support the information needs of the institution through comprehensive collection development based on the needs of the users to encourage teaching and learning both in the real and virtual environment to meet the challenges in achieving excellence,
+                         To achieve this mission the library commits to: Build diverse collections in variety of formats, Provide comfortable environment for studying, learning and research,
+                          Provide innovative user friendly services which is future centric, Collaborate with the user community to strive for continuous improvement to meet their expectations.
                         <br/>
-                        There are many variations of passages of Lorem Ipsum available, 
-                        but the majority have suffered alteration in some form, by injected 
-                        humour<br/>
-                        <br/>
-                        Your suggestions for improvement are always welcome!
                     </p>
                 </div>
             </div>

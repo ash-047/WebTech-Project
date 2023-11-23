@@ -16,6 +16,7 @@ const BorrowedBooksPage = () => {
         
         <div className="borrowedbooks-results" style={{ backgroundColor: 'rgba(245, 245, 245, 0.9)', padding: '20px', borderRadius: '5px' }}>
           <h2 style={{ textAlign: 'center', fontSize: '36px', fontFamily: 'Arial, sans-serif', color: '#236b92', animation: 'slideIn 0.5s ease-in-out' }}>Borrowed Books, Articles, and Pages</h2>
+          <br />
           <hr width="50" color="#000000" className="hr_lines"/>
           <br />
           <div className="tab-bar" style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
