@@ -4,6 +4,7 @@ require("dotenv").config();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const userRoutes = require("./routes/userRoutes");
+const bookRoutes = require("./routes/bookRoutes");
 
 const app = express();
 const PORT = 2000;
@@ -30,4 +31,5 @@ app.use(
 
 app.use(bodyParser.json());
 app.use("/auth", userRoutes);
+app.use("/books", bookRoutes);
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

@@ -27,3 +27,5 @@ router.post("/reserved", async (req, res) => {
     return res.status(401).send("Could not reserve the book right now");
   }
 });
+
+module.exports = router;
