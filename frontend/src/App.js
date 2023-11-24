@@ -47,7 +47,7 @@ const App = () => {
                 </Nav.Link>
               </Nav>
               <Nav>
-                {user && (
+                {!user && (
                   <Nav.Link as={Link} to={"/Login"}>
                     Login
                   </Nav.Link>
