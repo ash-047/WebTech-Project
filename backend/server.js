@@ -9,7 +9,7 @@ const bookRoutes = require("./routes/bookRoutes");
 const app = express();
 const PORT = 2000;
 
-const connectToDb = async() => {
+const connectToDb = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI);
         console.log("Connected to DB");
