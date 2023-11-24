@@ -32,4 +32,5 @@ app.use(
 app.use(bodyParser.json());
 app.use("/auth", userRoutes);
 app.use("/books", bookRoutes);
+
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

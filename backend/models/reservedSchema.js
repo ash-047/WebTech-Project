@@ -3,8 +3,7 @@ let Schema = mongoose.Schema;
 const ObjectId = require("mongoose").Types.ObjectId;
 
 let userSchema = new Schema({
-  USN: { type: mongoose.Types.ObjectId, ref: "Book" },
-  status: { type: mongoose.Types.ObjectId, ref: "Book" },
+  USN: String,
   by: { type: mongoose.Types.ObjectId, ref: "User" },
 });
 

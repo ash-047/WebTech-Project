@@ -28,12 +28,12 @@ const App = () => {
               </Nav>
               <Nav>
                 <Nav.Link as={Link} to={"/ReservedBooks"}>
-                  Reserved Books
+                  Reserve Books
                 </Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link as={Link} to={"/BorrowedBooks"}>
-                  Borrowed Books
+                  Reserved Books
                 </Nav.Link>
               </Nav>
               <Nav>

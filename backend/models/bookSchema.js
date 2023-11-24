@@ -5,6 +5,7 @@ let userSchema = new Schema({
   name: { type: String, required: true },
   USN: { type: String, required: true },
   author: { type: String, required: true },
+  genre: { type: String, required: true },
   status: { type: String, required: true },
 });
 
