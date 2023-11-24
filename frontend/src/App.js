@@ -9,10 +9,12 @@ import AboutUs from "./About";
 import BorrowedBooks from "./BorrowedBooks";
 import ReservedBooksPage from "./ReservedBooks";
 import MyProfile from "./MyProfile";
-import './App.css'
-import LandingPage from "./LandingPage"; 
+import "./App.css";
+import LandingPage from "./LandingPage";
 
 const App = () => {
+  let user = JSON.parse(localStorage.getItem("user"));
+
   return (
     <Router>
       <div className="App">
@@ -45,9 +47,11 @@ const App = () => {
                 </Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link as={Link} to={"/Login"}>
-                  Login
-                </Nav.Link>
+                {user && (
+                  <Nav.Link as={Link} to={"/Login"}>
+                    Login
+                  </Nav.Link>
+                )}
               </Nav>
             </Container>
           </Navbar>

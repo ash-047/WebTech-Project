@@ -1,0 +1,11 @@
+let mongoose = require("mongoose");
+let Schema = mongoose.Schema;
+const ObjectId = require("mongoose").Types.ObjectId;
+
+let userSchema = new Schema({
+  USN: { type: mongoose.Types.ObjectId, ref: "Book" },
+  status: { type: mongoose.Types.ObjectId, ref: "Book" },
+  by: { type: mongoose.Types.ObjectId, ref: "User" },
+});
+
+module.exports = mongoose.model("Reserved", userSchema);
